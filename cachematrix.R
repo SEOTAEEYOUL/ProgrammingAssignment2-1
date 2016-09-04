@@ -4,7 +4,6 @@
 ##
 ## cacheSolve
 
-## Write a short comment describing this function
 ## This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix( )) {
     cache <- NULL
@@ -15,8 +14,8 @@ makeCacheMatrix <- function(x = matrix( )) {
     getMatrix <- function( ) {
         x
     }
-    setInverse <- function(mean) {
-        cache <<- mean
+    setInverse <- function(solve) {
+        cache <<- solve
     }
     getInverse <- function( ) {
         cache
@@ -28,7 +27,6 @@ makeCacheMatrix <- function(x = matrix( )) {
 }
 
 
-## Write a short comment describing this function
 ## This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
 ## If the inverse has already been calculated (and the matrix has not changed),
 ## then the cachesolve should retrieve the inverse from the cache.
@@ -89,8 +87,19 @@ cacheSolve <- function(x, ...) {
 # [,1]       [,2]
 # [1,]  0.6666667 -0.1666667
 # [2,] -0.3333333  0.3333333
-# git push
-# git add add cachematrix.R
-# git commit -m "Commit Test"
-# git push origin wt1
+# 6. commit
+# 6.1 git add add cachematrix.R
+# 6.2 git commit -m "cachematrix.R modified"
+# [wt1-1 a9c92c1] cachematrix.R modified
+# 1 file changed, 5 insertions(+)
+# 6.3 git push origin wt1-1
+# Counting objects: 6, done.
+# Delta compression using up to 4 threads.
+# Compressing objects: 100% (6/6), done.
+# Writing objects: 100% (6/6), 1.50 KiB | 0 bytes/s, done.
+# Total 6 (delta 1), reused 0 (delta 0)
+# remote: Resolving deltas: 100% (1/1), done.
+# To https://github.com/SEOTAEEYOUL/ProgrammingAssignment2-1
+# * [new branch]      wt1-1 -> wt1-1
+
 # ------------------------------
