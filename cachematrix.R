@@ -87,7 +87,7 @@ cacheSolve <- function(x, ...) {
 # [1,]  0.6666667 -0.1666667
 # [2,] -0.3333333  0.3333333
 # 6. commit
-# 6.1 git add add cachematrix.R
+# 6.1 git add cachematrix.R
 # 6.2 git commit -m "cachematrix.R modified"
 # [wt1-1 a9c92c1] cachematrix.R modified
 # 1 file changed, 5 insertions(+)
