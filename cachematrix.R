@@ -38,7 +38,6 @@ cacheSolve <- function(x, ...) {
         return(inverse)
     }
     data <- x$getMatrix( )
-    # m <- mean(data, ...)
     inverse <- solve(data)
     x$setInverse(inverse)
     inverse
