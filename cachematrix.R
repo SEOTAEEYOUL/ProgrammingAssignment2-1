@@ -89,3 +89,8 @@ cacheSolve <- function(x, ...) {
 # [,1]       [,2]
 # [1,]  0.6666667 -0.1666667
 # [2,] -0.3333333  0.3333333
+# git push
+# git add add cachematrix.R
+# git commit -m "Commit Test"
+# git push origin wt1
+# ------------------------------
